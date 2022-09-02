@@ -1,0 +1,12 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+
+const SizeItem = props => {
+  return <span style={{ padding: '0 0.5rem' }}>{props.size}</span>;
+};
+
+SizeItem.propTypes = {
+  size: PropTypes.string.isRequired,
+};
+
+export default SizeItem;
